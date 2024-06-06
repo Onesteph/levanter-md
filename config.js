@@ -11,7 +11,7 @@ const DATABASE_URL =
 module.exports = {
   VERSION: require('./package.json').version,
   SESSION_ID: (process.env.SESSION_ID || '6_6_5619_458e_86d6').trim(),
-  DATABASE: 'postgres://allisonmd_user:HRk8TdHflqkfachBKGOUTjUK2s0CcWJF@dpg-cpgnpn6ct0pc739sfjcg-a.oregon-postgres.render.com/allisonmd',
+  DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
           dialect: 'sqlite',
