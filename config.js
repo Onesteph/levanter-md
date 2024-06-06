@@ -79,5 +79,5 @@ module.exports = {
   LIST_TYPE: (process.env.LIST_TYPE || 'poll').trim(),
   BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
   
-  global.api_smd = "https://api-smd-1.vercel.app"
+  global_api_smd = "https://api-smd-1.vercel.app"
 }
