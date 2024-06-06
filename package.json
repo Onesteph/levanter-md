@@ -6,7 +6,7 @@
   "scripts": {
     "start": "pm2 start . --attach --name levanter",
     "stop": "pm2 stop levanter",
-    "heroku-postbuild": "git clone https://github.com/Giftedmaurice/levanter-md.git temp && mv temp/.git .git && rm -rf temp"
+    "heroku-postbuild": "git clone https://github.com/Onesteph/levanter-md.git temp && mv temp/.git .git && rm -rf temp"
   },
   "author": "",
   "license": "ISC",
